@@ -2,6 +2,6 @@
 
 ## Python Operators
 ![Python Operators](image.png)
-![Python Operators](image-1.png)
-![Python Operators](image-2.png)
-![Python Operators](image-3.png)
+![Arithmetic Operators](image-1.png)
+![Assignment Operators](image-2.png)
+![Comparison Operators](image-3.png)
