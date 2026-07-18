@@ -1,13 +1,16 @@
 # Python Loop
 ## range()
+
 ![range()](image.png)
 --------------------------------------------
+### Example 1
 ```python  
 for num in range(1):
     print(num)
 ```
 ![output](image-1.png)
 --------------------------------------------
+### Example 2
 ```python
 for num in range(5):
     print(num)
