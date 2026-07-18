@@ -1,4 +1,4 @@
-num = 1
-while num <= 11:
+for num in range(1, 12, 2):
+    if num == 5:
+        break #loop stop at value 5
     print(num)
-    num += 1
