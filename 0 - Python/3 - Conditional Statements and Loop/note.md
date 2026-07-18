@@ -14,3 +14,10 @@ for num in range(5):
     print(num)
 ```
 ![output](image-2.png)
+--------------------------------------------
+### Example 3:
+```python
+for num in range(1, 12, 2):
+    print(num)
+```
+![output](image-3.png)
