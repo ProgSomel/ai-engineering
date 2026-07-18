@@ -100,3 +100,29 @@ while num <= n:
 print(total)
 ```
 ![output](image-9.png)
+-------------------------------------------
+### Example 4:
+```python
+# count digits
+#6381
+num = 6381
+count = 0
+while num > 0:
+    num //= 10
+    count+=1
+print(count)
+```
+![output](image-11.png)
+-------------------------------------------
+### Example 5:
+```python
+# sum of digits
+#6381
+num = 6381
+sum = 0
+while num > 0:
+    sum += (num %10)
+    num //= 10
+print(sum)
+```
+![output](image-12.png)
