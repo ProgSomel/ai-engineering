@@ -51,6 +51,16 @@ for num in range(1, n+1):
 print(total)
 ```
 ![output](image-7.png)
+-------------------------------------------
+### Example 7:
+```python
+#Multiplication Table
+n = int(input("Enter a number: "))
+for num in range(1, 11):
+    print(f"{n} X {num} = {n*num}")
+```
+![output](image-10.png)
+
 
 ## while loop
 ### Example 1:

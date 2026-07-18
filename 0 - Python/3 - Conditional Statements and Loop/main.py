@@ -1,10 +1,4 @@
-#1+2+3+4+....+n
+#Multiplication
 n = int(input("Enter a number: "))
-num = 1
-total = 1
-while num <= n:
-    total*=num
-    num+=1
-
-print(total)
-
+for num in range(1, 11):
+    print(f"{n} X {num} = {n*num}")
