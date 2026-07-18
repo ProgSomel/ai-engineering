@@ -1,4 +1,10 @@
-for num in range(1, 12, 2):
-    if num == 5:
-        break #loop stop at value 5
-    print(num)
+#1+2+3+4+....+n
+n = int(input("Enter a number: "))
+num = 1
+total = 1
+while num <= n:
+    total*=num
+    num+=1
+
+print(total)
+

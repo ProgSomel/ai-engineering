@@ -39,6 +39,18 @@ for num in range(1, 12, 2):
     print(num)
 ```
 ![output](image-6.png)
+-------------------------------------------
+### Example 6:
+```python
+#1+2+3+4+....+n
+n = int(input("Enter a number: "))
+total = 0
+for num in range(1, n+1):
+    total += num
+
+print(total)
+```
+![output](image-7.png)
 
 ## while loop
 ### Example 1:
@@ -49,3 +61,32 @@ while num <= 11:
     num += 1
 ```
 ![output](image-4.png)
+------------------------------------------
+### Example 2:
+```python
+#1+2+3+4+....+n
+n = int(input("Enter a number: "))
+num = 1
+total = 0
+while num <= n:
+    total+=num
+    num+=1
+
+print(total)
+```
+![output](image-8.png)
+-----------------------------------------
+### Example 3:
+#### Factorial
+```python
+#1+2+3+4+....+n
+n = int(input("Enter a number: "))
+num = 1
+total = 1
+while num <= n:
+    total*=num
+    num+=1
+
+print(total)
+```
+![output](image-9.png)
