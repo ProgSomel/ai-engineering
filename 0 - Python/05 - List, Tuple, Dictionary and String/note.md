@@ -114,3 +114,12 @@ list = [n**2 for n in range(1, 101)]
 print(list)
 ```
 ![output](image-13.png)
+---------------------------------
+
+## Python Tuple -> it can not be changed after build
+![Python Tuple](image-14.png)
+![Tuple or List](image-15.png)
+----------------------------------
+
+## Python Dictionary
+![python Dictionary](image-16.png)
