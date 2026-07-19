@@ -123,3 +123,7 @@ print(list)
 
 ## Python Dictionary
 ![python Dictionary](image-16.png)
+----------------------------------
+
+## Python Strings
+![strings](image-17.png)
