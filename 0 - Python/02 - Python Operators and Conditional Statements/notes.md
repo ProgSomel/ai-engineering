@@ -21,3 +21,49 @@ else:
     print("F")
 ```
 ![output](image-7.png)
+
+## if/else Examples
+
+### Simple if/else
+```python
+age = 18
+
+if age >= 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
+```
+
+### if/elif/else
+```python
+marks = 65
+
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 60:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+### Nested if/else
+```python
+num = 10
+
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+```
+
+### if/else in one line (ternary operator)
+```python
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
+```
