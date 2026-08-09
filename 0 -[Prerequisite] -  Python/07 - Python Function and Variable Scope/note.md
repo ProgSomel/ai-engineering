@@ -117,6 +117,30 @@ outer()
 print(x)  # global
 ```
 
+### Global keyword -> is used when we want to modify a global variable inside a function
+```python
+count = 0
+def increment():
+    global count
+    count += 1
+increment()
+print(count) # 1
+```
+
+### nonlocal keyword -> is used in nested function to modify a variable from outer function
+```python
+def outer():
+    count = 0
+    
+    def inner():
+        nonlocal count
+        count+=1
+    inner()
+    inner()
+    print(count) # 2
+outer()
+```
+
 ### Default Arguments
 ```python
 def greet_person(name, greeting="Hello"):
@@ -161,7 +185,7 @@ full_example(1, 2, 3, 4, x=5, y=6)
 # kwargs: {'x': 5, 'y': 6}
 ```
 
-### Lambda Expression
+### ### Lambda Expressions -> are small anonymous functions used for short one-line operations
 ```python
 # a small anonymous function: lambda parameters: expression
 square = lambda x: x * x
@@ -169,6 +193,12 @@ print("Square of 5:", square(5))  # Square of 5: 25
 
 add = lambda a, b: a + b
 print("Sum with lambda:", add(3, 4))  # Sum with lambda: 7
+
+is_even = lambda num: num % 2 == 0
+print(is_even(5))#False
+
+to_upper = lambda text: text.upper()
+print(to_upper("somel"))#SOMEL
 ```
 
 ### Lambda with built-in functions
@@ -186,4 +216,21 @@ def calculate(a, b):
     return a+b, a-b, a*b
 add, sub, mul = calculate(10, 5)
 print(add, sub, mul)
+```
+
+### Docstrings -> used to describe what a function does. They are usually written inside triple quotes
+```python
+def add(a, b):
+    """
+    adds two numbers and return result.
+    """
+    return a + b
+print(add(10, 10))
+```
+
+### Type Annotations -> describe the expected input and output types of a function
+```python
+def add(a: int, b: int) -> int:
+    return a + b
+print(add(10, 5))#15
 ```
